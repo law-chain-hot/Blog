@@ -1,5 +1,4 @@
-# Qianhao Luo's Blog
-# 冷却后的博客
+# Qianhao Luo's Blog  冷却后的博客
 
 ## 关于我
 工科, 研二, 前端, 正常人
