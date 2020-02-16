@@ -17,7 +17,7 @@
 
 
 ## 梳理知识点的笔记
-[ nowledge_Sum_知识点总结(持续更新)](https://github.com/law-chain-hot/Blog/issues/1)  
+[Knowledge Summary 知识点总结(持续更新)](https://github.com/law-chain-hot/Blog/issues/1)  
 
 
 
