@@ -1,47 +1,56 @@
 # 如何使用div完成拖拽效果
 关键是3个mouse事件
-1. mouseup
-2. mousedown
-3. mousemove
+1. mousedown： 激活dragging
+2. mouseup： 关闭dragging
+3. mousemove： 计算位置
+
+[效果地址](https://codepen.io/law-chain-hot/pen/NWqNXPP?editors=1010)
 
 ### HTML
 ```html
   <div class="move-container">
-    <div class="move" style="position:absolute; width:100px; height:100px; background:gray">
+    <div class="move" style="position:absolute; width:100px; height:100px; background:gold">
     </div>
   </div>
 ```
 
-### js
+### JS
 ```js
-var moveElem = document.querySelector(".move"); //待拖拽元素
+    let moveEle = document.querySelector("#move");
+    let dragging = false;
+    let relaDistanceX = 0;
+    let relaDistanceY = 0;
 
-var dragging; //是否激活拖拽状态
-var tLeft, tTop; //鼠标按下时相对于选中元素的位移
+    // 1. MouseDown
+    moveEle.addEventListener("mousedown", e => {
+        if (e.target == moveEle) {
+            //active dragging
+            dragging = true;
+            var moveEleDis = moveEle.getBoundingClientRect();
+            relaDistanceX = e.clientX - moveEleDis.left;
+            relaDistanceY = e.clientY - moveEleDis.top;
+        }
+    });
 
-//监听鼠标按下事件
-document.addEventListener("mousedown", function(e) {
-  if (e.target == moveElem) {
-    dragging = true; //激活拖拽状态
-    var moveElemRect = moveElem.getBoundingClientRect();
-    tLeft = e.clientX - moveElemRect.left; //鼠标按下时和选中元素的坐标偏移:x坐标
-    tTop = e.clientY - moveElemRect.top; //鼠标按下时和选中元素的坐标偏移:y坐标
-  }
-});
+    // 2. MouseUp
+    moveEle.addEventListener("mouseup", e => {
+        dragging = false;
+    });
 
-//监听鼠标放开事件
-document.addEventListener("mouseup", function(e) {
-  dragging = false;
-});
-
-//监听鼠标移动事件
-document.addEventListener("mousemove", function(e) {
-  if (dragging) {
-    var moveX = e.clientX - tLeft,
-      moveY = e.clientY - tTop;
-
-    moveElem.style.left = moveX + "px";
-    moveElem.style.top = moveY + "px";
-  }
-});
+    // 3. MouseMove
+    moveEle.addEventListener("mousemove", e => {
+        if (dragging) {
+            var moveX = e.clientX - relaDistanceX,
+                moveY = e.clientY - relaDistanceY;
+            //deploy the distance
+            moveEle.style.left = moveX + 'px';
+            moveEle.style.top = moveY + 'px';
+        }
+    });
 ```
+
+
+### 注意
+有小细节需要特别注意
+- `addEventListener`最好加载`document`上面，不然鼠标移动太快会掉帧，即无法捕捉moveEle这个事件，但是用`document`的话，mousedown这个事件一直存在
+- 我在这页代码用的`moveEle.addEventListener`，codepen上面用的documnet
