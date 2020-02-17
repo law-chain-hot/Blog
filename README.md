@@ -25,13 +25,11 @@
 
 
 ## 其他链接
-1. [Luo's Portfolio](https://law-chain-hot.github.io/portfolio)  
+1. [个人主页 Luo's Portfolio](https://law-chain-hot.github.io/portfolio)  
 2. [Luo's Homepage(老版)](https://law-chain-hot.github.io/homepage)
 3. [LinkedIn 领英](https://www.linkedin.com/in/qianhao-luo-472974177/)
 
  
-
-
 
 
 ## 关于我
@@ -41,4 +39,4 @@
 
 目前寻找2020夏天实习  
 
-另外这是我的 [个人主页 Luo's Portfolio](https://law-chain-hot.github.io/portfolio)
+我的详细[Biography](https://github.com/law-chain-hot/Blog/tree/master/0-%E5%85%B3%E4%BA%8EAbout)
