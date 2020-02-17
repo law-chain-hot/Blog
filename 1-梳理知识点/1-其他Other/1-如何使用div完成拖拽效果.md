@@ -6,6 +6,12 @@
 
 [效果地址](https://codepen.io/law-chain-hot/pen/NWqNXPP?editors=1010)
 
+### 注意
+有小细节需要特别注意
+- `addEventListener`最好加载`document`上面，不然鼠标移动太快会掉帧，即无法捕捉moveEle这个事件，但是用`document`的话，mousedown这个事件一直存在
+- 我在这页代码用的`moveEle.addEventListener`，codepen上面用的documnet
+
+
 ### HTML
 ```html
   <div class="move-container">
@@ -50,7 +56,3 @@
 ```
 
 
-### 注意
-有小细节需要特别注意
-- `addEventListener`最好加载`document`上面，不然鼠标移动太快会掉帧，即无法捕捉moveEle这个事件，但是用`document`的话，mousedown这个事件一直存在
-- 我在这页代码用的`moveEle.addEventListener`，codepen上面用的documnet

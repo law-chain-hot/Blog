@@ -12,6 +12,7 @@
 
 ## 梳理知识点的笔记
 1. [Knowledge Summary 知识点总结(持续更新)](https://github.com/law-chain-hot/Blog/issues/1)  
+2. [如何使用div完成拖拽效果](https://github.com/law-chain-hot/Blog/issues/2)
 
 
 
