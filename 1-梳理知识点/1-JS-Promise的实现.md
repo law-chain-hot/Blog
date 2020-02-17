@@ -2,9 +2,9 @@
 
 这个略复杂，我大概用了100多行代码实现了链式调用，先上代码
 关键点
-1. 三种状态
+1. 三种状态：Fulfilled, Rejected, Pending. 可以用Symbol表示
 2. bind resolve && reject
-3. 有多个onFulfilled函数，需要异步调用
+3. resolve在setTimeout异步调用，有多个onFulfilled函数，需要使用`this.onFulfilledCallbacks = []`
 4. then 的链式调用，需要返回Promise，所以new的promise2要判断onFulfilled返回的是否是Promise
 
 
@@ -53,27 +53,29 @@ class myPromise {
     }
 
     resolve(value) {
-        // setTimeout(() => {
-        console.log('resolve');
-        console.log(this.status);
-
-
-        if (this.status == this.STATUS_PENDING) {
-            // change status and value
-            this.status = this.STATUS_RESOLVED;
-            this.value = value;
-            this.onFulfilledCallbacks.forEach(el => el(this.value))
-        }
-        // })
+        setTimeout(() => {
+            console.log('resolve');
+            console.log(this.status);
+            if (this.status == this.STATUS_PENDING) {
+                // change status and value
+                this.status = this.STATUS_RESOLVED;
+                this.value = value;
+                this.onFulfilledCallbacks.forEach(el => el(this.value))
+            }
+        })
     }
 
     reject(reason) {
+        setTimeout(() => {
+
         if (this.status == this.STATUS_PENDING) {
             // change status and value
             this.status = this.STATUS_REJECTED;
             this.reason = reason;
             this.onRejectedCallbacks.forEach(el => el(this.reson))
         }
+    })
+
     }
 
     // chain callback
@@ -168,7 +170,7 @@ class myPromise {
 
 }
 
-myPromise2.prototype.catch = (onRejected) => {
+myPromise.prototype.catch = (onRejected) => {
     return this.then(null, onRejected)
 }
 

@@ -2,9 +2,8 @@
 
 
 ## JS
-1. Promise的实现
-
-
+1. [Promise的手动实现](https://github.com/law-chain-hot/Blog/issues/3)
+2. [Ajax手写实现](https://github.com/law-chain-hot/Blog/issues/4)
 
 
 
