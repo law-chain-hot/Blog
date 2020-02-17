@@ -4,12 +4,16 @@
 2. mouseup： 关闭dragging
 3. mousemove： 计算位置
 
-[效果地址](https://codepen.io/law-chain-hot/pen/NWqNXPP?editors=1010)
+Codepen.io[效果地址](https://codepen.io/law-chain-hot/pen/NWqNXPP?editors=1010)
 
 ### 注意
 有小细节需要特别注意
 - `addEventListener`最好加载`document`上面，不然鼠标移动太快会掉帧，即无法捕捉moveEle这个事件，但是用`document`的话，mousedown这个事件一直存在
 - 我在这页代码用的`moveEle.addEventListener`，codepen上面用的documnet
+- 其他的需要记得的API
+  - `getBoundingClientRect()`
+  - `e.clientX`
+  - `moveEle.style.left = moveX + 'px'`
 
 
 ## 代码
@@ -48,11 +52,9 @@
     // 3. MouseMove
     moveEle.addEventListener("mousemove", e => {
         if (dragging) {
-            var moveX = e.clientX - relaDistanceX,
-                moveY = e.clientY - relaDistanceY;
             //deploy the distance
-            moveEle.style.left = moveX + 'px';
-            moveEle.style.top = moveY + 'px';
+            moveEle.style.left = e.clientX - relaDistanceX + 'px';
+            moveEle.style.top = e.clientY - relaDistanceY + 'px';
         }
     });
 ```
