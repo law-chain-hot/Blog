@@ -24,8 +24,6 @@
 
 
 
-## 日常记录
-1. [2020.02.18 Week5.2](https://github.com/law-chain-hot/Blog/blob/master/3-%E6%97%A5%E5%B8%B8%E8%AE%B0%E5%BD%95/1-%5B2020.02.18%5DWeek5.2.md)
 
 
 
@@ -35,6 +33,9 @@
 1. [个人主页 Luo's Portfolio](https://law-chain-hot.github.io/portfolio)  
 2. [个人主页(老版) Luo's Homepage](https://law-chain-hot.github.io/homepage)
 3. [领英主页 LinkedIn ](https://www.linkedin.com/in/qianhao-luo-472974177/)
+
+### 日常记录
+1. [2020.02.18 Week5.2](https://github.com/law-chain-hot/Blog/blob/master/3-%E6%97%A5%E5%B8%B8%E8%AE%B0%E5%BD%95/1-%5B2020.02.18%5DWeek5.2.md)
 
  
 
