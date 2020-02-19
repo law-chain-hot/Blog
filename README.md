@@ -29,7 +29,9 @@
 
 
 
-## 其他链接
+## 其他记录
+
+### 其他链接
 1. [个人主页 Luo's Portfolio](https://law-chain-hot.github.io/portfolio)  
 2. [个人主页(老版) Luo's Homepage](https://law-chain-hot.github.io/homepage)
 3. [领英主页 LinkedIn ](https://www.linkedin.com/in/qianhao-luo-472974177/)
