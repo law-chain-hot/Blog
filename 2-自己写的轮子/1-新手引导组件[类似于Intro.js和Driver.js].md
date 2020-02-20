@@ -8,7 +8,7 @@
 2. 虽然找了其他人的库，可是他们的库不能够highlight那些position为fix的组件，而很多Nav和search组件都是fix的元素，这让人很头痛，没办法，请教了下大佬同时自己也上网搜了搜，捣鼓出了个雏形。
 
 
-## 2020.02.19
+### 2020.02.19
 修复了另外一个bug，现在是真正的在浏览器页面里面的绝对位置了
 ```js
     this.getAbsoluteLeft = el.getBoundingClientRect().left + document.documentElement.scrollLeft;
