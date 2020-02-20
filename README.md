@@ -16,6 +16,11 @@
 3. [Promise的手动实现](https://github.com/law-chain-hot/Blog/issues/3)
 4. [Ajax手写实现](https://github.com/law-chain-hot/Blog/issues/4)
 
+
+### 自己造轮子
+1. [mk-guide](https://github.com/law-chain-hot/Blog/blob/master/2-%E8%87%AA%E5%B7%B1%E5%86%99%E7%9A%84%E8%BD%AE%E5%AD%90/1-%E6%96%B0%E6%89%8B%E5%BC%95%E5%AF%BC%E7%BB%84%E4%BB%B6%EF%BC%88%E7%B1%BB%E4%BC%BC%E4%BA%8EIntro.js%E5%92%8CDriver.js).md): A light JavaScript library to guide the user to focus the important part, including fix element
+
+
 ### 无法分类的笔记
 1. [Recipe Project Note](https://github.com/law-chain-hot/md-all-notes/issues/4)  
 2. [Basic JavaScript](https://github.com/law-chain-hot/md-all-notes/issues/5)    
@@ -32,12 +37,12 @@
 ## 其他记录
 
 ### 其他链接
-1. [个人主页 Luo's Portfolio](https://law-chain-hot.github.io/portfolio)  
-2. [个人主页(老版) Luo's Homepage](https://law-chain-hot.github.io/homepage)
-3. [领英主页 LinkedIn ](https://www.linkedin.com/in/qianhao-luo-472974177/)
+- [个人主页 Luo's Portfolio](https://law-chain-hot.github.io/portfolio)  
+- [个人主页(老版) Luo's Homepage](https://law-chain-hot.github.io/homepage)
+- [领英主页 LinkedIn ](https://www.linkedin.com/in/qianhao-luo-472974177/)
 
 ### 日常记录
-1. [2020.02.18 Week5.2](https://github.com/law-chain-hot/Blog/blob/master/3-%E6%97%A5%E5%B8%B8%E8%AE%B0%E5%BD%95/1-%5B2020.02.18%5DWeek5.2.md)
+- [2020.02.18 Week5.2](https://github.com/law-chain-hot/Blog/blob/master/3-%E6%97%A5%E5%B8%B8%E8%AE%B0%E5%BD%95/1-%5B2020.02.18%5DWeek5.2.md)
 
  
 
