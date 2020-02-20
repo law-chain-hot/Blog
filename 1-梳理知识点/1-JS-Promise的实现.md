@@ -177,5 +177,5 @@ myPromise.prototype.catch = (onRejected) => {
 module.exports = myPromise
 ```
 
-
+---
 [ ⬅ 返回我的Blog](https://github.com/law-chain-hot/Blog)  
