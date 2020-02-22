@@ -39,15 +39,15 @@
 ## 其他记录
 
 ### 其他链接
-- [[其他链接] 个人主页 Luo's Portfolio](https://law-chain-hot.github.io/portfolio)  
-- [[其他链接] 个人主页(老版) Luo's Homepage](https://law-chain-hot.github.io/homepage)
-- [[其他链接] 领英主页 LinkedIn ](https://www.linkedin.com/in/qianhao-luo-472974177/)
-- [[其他链接] Luo's Blog by Express ](http://118.31.9.121/)
+- [[链接] 个人主页 Luo's Portfolio](https://law-chain-hot.github.io/portfolio)  
+- [[链接] 个人主页(老版) Luo's Homepage](https://law-chain-hot.github.io/homepage)
+- [[链接] 领英主页 LinkedIn ](https://www.linkedin.com/in/qianhao-luo-472974177/)
+- [[链接] Luo's Blog by Express ](http://118.31.9.121/)
 
 
 ### 日常记录
-- [[日常记录] 2020.02.20 阿里云部署博客踩坑](https://github.com/law-chain-hot/Blog/blob/master/3-%E6%97%A5%E5%B8%B8%E8%AE%B0%E5%BD%95/2-%5B2020.02.21%5DWeek5.5%20%E9%98%BF%E9%87%8C%E4%BA%91%E9%83%A8%E7%BD%B2%E5%8D%9A%E5%AE%A2%E8%B8%A9%E5%9D%91.md)
-- [[日常记录] 2020.02.18 NPM包：mk-guide](https://github.com/law-chain-hot/Blog/blob/master/3-%E6%97%A5%E5%B8%B8%E8%AE%B0%E5%BD%95/1-%5B2020.02.18%5DWeek5.2.md)
+- [[记录] 2020.02.20 阿里云部署博客踩坑](https://github.com/law-chain-hot/Blog/blob/master/3-%E6%97%A5%E5%B8%B8%E8%AE%B0%E5%BD%95/2-%5B2020.02.21%5DWeek5.5%20%E9%98%BF%E9%87%8C%E4%BA%91%E9%83%A8%E7%BD%B2%E5%8D%9A%E5%AE%A2%E8%B8%A9%E5%9D%91.md)
+- [[记录] 2020.02.18 NPM包：mk-guide](https://github.com/law-chain-hot/Blog/blob/master/3-%E6%97%A5%E5%B8%B8%E8%AE%B0%E5%BD%95/1-%5B2020.02.18%5DWeek5.2%20NPM%E5%8C%85.md)
 
 
  
