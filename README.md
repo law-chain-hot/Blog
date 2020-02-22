@@ -18,6 +18,8 @@
 5. [[network] XSS和CSRF 攻击，分类，防范](https://github.com/law-chain-hot/Blog/blob/master/1-%E6%A2%B3%E7%90%86%E7%9F%A5%E8%AF%86%E7%82%B9/4-Network-XSS%E6%94%BB%E5%87%BB%EF%BC%8C%E5%88%86%E7%B1%BB%EF%BC%8C%E9%98%B2%E8%8C%83.md)
 
 
+### 算法
+1. [[算法] 字符串全排列](https://github.com/law-chain-hot/Blog/issues/5)
 
 
 
