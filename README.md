@@ -26,11 +26,14 @@
 
 
 
-
-
-
 ### 无法分类的笔记
-[[无法分类] Recipe Project Note](https://github.com/law-chain-hot/md-all-notes/issues/4)  [[无法分类] Basic JavaScript](https://github.com/law-chain-hot/md-all-notes/issues/5)    [[无法分类] Basic Node.js](https://github.com/law-chain-hot/md-all-notes/issues/6)   [[无法分类] BootStrap4](https://github.com/law-chain-hot/md-all-notes/issues/7)  
+1. [[无法分类] Recipe Project Note](https://github.com/law-chain-hot/md-all-notes/issues/4)  
+2. [[无法分类] Basic JavaScript](https://github.com/law-chain-hot/md-all-notes/issues/5)    
+3. [[无法分类] Basic Node.js](https://github.com/law-chain-hot/md-all-notes/issues/6)  
+4. [[无法分类] BootStrap4](https://github.com/law-chain-hot/md-all-notes/issues/7)  
+
+
+
 
 
 ## 其他记录
