@@ -12,10 +12,10 @@
 
 ### 梳理知识点的笔记
 1. [Knowledge Summary 知识点总结(持续更新)](https://github.com/law-chain-hot/Blog/issues/1)  
-2. [[js]如何使用div完成拖拽效果](https://github.com/law-chain-hot/Blog/issues/2)
-3. [[js]Promise的手动实现](https://github.com/law-chain-hot/Blog/issues/3)
-4. [[js]Ajax手写实现](https://github.com/law-chain-hot/Blog/issues/4)
-5. [[network]XSS攻击，分类，防范]()
+2. [[js] 如何使用div完成拖拽效果](https://github.com/law-chain-hot/Blog/issues/2)
+3. [[js] Promise的手动实现](https://github.com/law-chain-hot/Blog/issues/3)
+4. [[js] Ajax手写实现](https://github.com/law-chain-hot/Blog/issues/4)
+5. [[network] XSS攻击，分类，防范](https://github.com/law-chain-hot/Blog/blob/master/1-%E6%A2%B3%E7%90%86%E7%9F%A5%E8%AF%86%E7%82%B9/4-Network-XSS%E6%94%BB%E5%87%BB%EF%BC%8C%E5%88%86%E7%B1%BB%EF%BC%8C%E9%98%B2%E8%8C%83.md)
 
 
 
