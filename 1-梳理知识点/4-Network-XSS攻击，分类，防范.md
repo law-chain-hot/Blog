@@ -22,10 +22,23 @@
 - 不准输入<>，/，等特殊字符
 
 
+```
+XSS：分为存储、反射、dom型。是一种代码注入，浏览器没有智商，你输入一个<script>标签或者<a>标签只要浏览器访问到了
+  可以是贴吧留言甚至是url中的构造，浏览器上他无法辨别这是html标签还是单纯的文字语义，他都是当代码进行执行了。自己构造一段浏览器的恶意代码，那就是为所欲为，危害很大！
+
+CSRF：更多如同楼上大神所说，他是过分信任用户的一种行为，一般执行起来非常严格。
+  通俗的举个例子：访问：www.weibo.com/hehe/deletepage=30&userid=10284 好了hehe用户的id=30号的文章就被删除掉了，你没有插入任何恶意代码，你只是调用了网站本身的js代码接口，好了你就完成了一次未经授权的删帖操作
+
+作者：Laily
+链接：https://www.zhihu.com/question/34445731/answer/86231165
+来源：知乎
+```
+
 ## 优秀的参考链接
-https://owasp.org/www-community/xss-filter-evasion-cheatsheet#
-https://www.bilibili.com/video/av90570085?from=search&seid=227626074659211776
-https://zhuanlan.zhihu.com/p/26177815
+https://owasp.org/www-community/xss-filter-evasion-cheatsheet#  
+https://www.bilibili.com/video/av90570085?from=search&seid=227626074659211776  
+https://zhuanlan.zhihu.com/p/26177815  
+https://www.zhihu.com/question/34445731  
 
 
 ---
