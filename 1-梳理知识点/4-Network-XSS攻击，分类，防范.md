@@ -1,4 +1,6 @@
-# XSS攻击，分类，防范
+# XSS和CSRF 攻击，分类，防范
+
+# XSS
 
 ## XSS分类（安全界分类）
 - 反射型XSS：提交的数据，单次影响，非持久型
@@ -20,6 +22,8 @@
 - 编码：<> 符号输入时转换编码
 - 限制长度：一般XSS成功，需要较长字符串
 - 不准输入<>，/，等特殊字符
+- HttpOnly 防止劫取 Cookie: 严格来说，HttpOnly 并非阻止 XSS 攻击，而是能阻止 XSS 攻击后的 Cookie 劫持攻击
+- 输入，输入，都检查
 
 
 ```
@@ -53,6 +57,14 @@ https://www.bilibili.com/video/av90570085?from=search&seid=227626074659211776
 https://zhuanlan.zhihu.com/p/26177815  
 https://www.zhihu.com/question/34445731  
 
+
+
+# CSRF
+
+## 防范方法
+- 验证码
+- Referer Check
+- token 验证
 
 ---
 [ ⬅ 返回我的Blog](https://github.com/law-chain-hot/Blog)  
