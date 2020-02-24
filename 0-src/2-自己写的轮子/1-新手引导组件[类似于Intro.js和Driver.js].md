@@ -4,6 +4,11 @@
 ## Demo展示
 ![Alt text](1-mk-guide-intro.gif)
 
+### 地址
+- [GitHub: Mk-Guide 源码](https://github.com/law-chain-hot/mk-guide) 的传送门
+- [NPM: Mk-Guide ](https://www.npmjs.com/package/mk-guide) 的传送门
+- [Demo](https://law-chain-hot.github.io/demo-mk-guide/) 的传送门
+
 ### 特征
 - 支持使用方向键和ESC键控制
 - 支持自定义buttion颜色
