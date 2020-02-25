@@ -66,6 +66,12 @@ https://www.zhihu.com/question/34445731
 - Referer Check
 - token 验证
 
+```
+Get 请求不对数据进行修改
+不让第三方网站访问到用户 Cookie
+阻止第三方网站请求接口
+```
+
 ### 优秀的参考链接
 https://github.com/dwqs/blog/issues/68 浅说 XSS 和 CSRF #68  
 https://segmentfault.com/a/1190000013010835  Token 认证的来龙去脉 - 边城客栈 - SegmentFault 思否
