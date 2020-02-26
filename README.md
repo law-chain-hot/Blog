@@ -11,7 +11,7 @@
 ## 技术记录
 
 ### 梳理知识点的笔记
-1. [Knowledge Summary 知识点总结(持续更新)](https://github.com/law-chain-hot/Blog/issues/1)  
+1. ~~[Knowledge Summary 知识点总结(持续更新) （No）](https://github.com/law-chain-hot/Blog/issues/1)~~
 2. [[js] 如何使用div完成拖拽效果](https://github.com/law-chain-hot/Blog/issues/2)
 3. [[js] Promise的手动实现](https://github.com/law-chain-hot/Blog/issues/3)
 4. [[js] Ajax手写实现](https://github.com/law-chain-hot/Blog/issues/4)
