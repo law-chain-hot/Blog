@@ -29,7 +29,7 @@
 
 ### 博文记录
 - [[记录] 2020.03.05 FreeTitle网页的profile修改过程-踩坑记录（加入创业团队第二周）](https://github.com/law-chain-hot/Blog/issues/11)
-- [[记录] 2020.02.20 阿里云部署博客踩坑](https://github.com/law-chain-hot/Blog/blob/master/0-src/3-%E6%97%A5%E5%B8%B8%E8%AE%B0%E5%BD%95/2-%5B2020.02.21%5DWeek5.5%20%E9%98%BF%E9%87%8C%E4%BA%91%E9%83%A8%E7%BD%B2%E5%8D%9A%E5%AE%A2%E8%B8%A9%E5%9D%91.md)
+- [[记录] 2020.02.20 阿里云部署博客-踩坑记录](https://github.com/law-chain-hot/Blog/blob/master/0-src/3-%E6%97%A5%E5%B8%B8%E8%AE%B0%E5%BD%95/2-%5B2020.02.21%5DWeek5.5%20%E9%98%BF%E9%87%8C%E4%BA%91%E9%83%A8%E7%BD%B2%E5%8D%9A%E5%AE%A2%E8%B8%A9%E5%9D%91.md)
 - [[记录] 2020.02.18 NPM包：mk-guide](https://github.com/law-chain-hot/Blog/blob/master/0-src/3-%E6%97%A5%E5%B8%B8%E8%AE%B0%E5%BD%95/1-%5B2020.02.18%5DWeek5.2%20NPM%E5%8C%85.md)
 
 ### 自己造轮子
