@@ -38,12 +38,6 @@
 
 
 
-### 无法分类的笔记
-1. [[无法分类] Recipe Project Note 原生JS实现MVP框架的网站](https://github.com/law-chain-hot/md-all-notes/issues/4)  
-2. [[无法分类] Basic JavaScript](https://github.com/law-chain-hot/md-all-notes/issues/5)    
-3. [[无法分类] Basic Node.js](https://github.com/law-chain-hot/md-all-notes/issues/6)  
-4. [[无法分类] BootStrap4](https://github.com/law-chain-hot/md-all-notes/issues/7)  
-
 
 
 
@@ -56,6 +50,12 @@
 - [[链接] 领英主页 LinkedIn ](https://www.linkedin.com/in/qianhao-luo-472974177/)
 - [[链接] Luo's Blog by Express ](http://118.31.9.121/)
 
+
+### 无法分类的笔记
+1. [[无法分类] Recipe Project Note 原生JS实现MVP框架的网站](https://github.com/law-chain-hot/md-all-notes/issues/4)  
+2. [[无法分类] Basic JavaScript](https://github.com/law-chain-hot/md-all-notes/issues/5)    
+3. [[无法分类] Basic Node.js](https://github.com/law-chain-hot/md-all-notes/issues/6)  
+4. [[无法分类] BootStrap4](https://github.com/law-chain-hot/md-all-notes/issues/7)  
 
 
 
