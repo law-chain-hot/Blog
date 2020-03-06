@@ -27,6 +27,10 @@
 3. [[算法] 大数相加 (极简版)](https://github.com/law-chain-hot/Blog/blob/master/0-src/4-%E7%AE%97%E6%B3%95/3-%E5%A4%A7%E6%95%B0%E7%9B%B8%E5%8A%A0%EF%BC%88%E6%9E%81%E7%AE%80%E7%89%88%EF%BC%89.md)
 
 
+### 博文记录
+- [[记录] 2020.03.05 FreeTitle网页的profile修改过程-踩坑记录（加入创业团队第二周）](https://github.com/law-chain-hot/Blog/issues/11)
+- [[记录] 2020.02.20 阿里云部署博客踩坑](https://github.com/law-chain-hot/Blog/blob/master/0-src/3-%E6%97%A5%E5%B8%B8%E8%AE%B0%E5%BD%95/2-%5B2020.02.21%5DWeek5.5%20%E9%98%BF%E9%87%8C%E4%BA%91%E9%83%A8%E7%BD%B2%E5%8D%9A%E5%AE%A2%E8%B8%A9%E5%9D%91.md)
+- [[记录] 2020.02.18 NPM包：mk-guide](https://github.com/law-chain-hot/Blog/blob/master/0-src/3-%E6%97%A5%E5%B8%B8%E8%AE%B0%E5%BD%95/1-%5B2020.02.18%5DWeek5.2%20NPM%E5%8C%85.md)
 
 ### 自己造轮子
 1. [[npm] mk-guide](https://github.com/law-chain-hot/Blog/blob/master/0-src/2-%E8%87%AA%E5%B7%B1%E5%86%99%E7%9A%84%E8%BD%AE%E5%AD%90/1-%E6%96%B0%E6%89%8B%E5%BC%95%E5%AF%BC%E7%BB%84%E4%BB%B6%5B%E7%B1%BB%E4%BC%BC%E4%BA%8EIntro.js%E5%92%8CDriver.js%5D.md) : A light JavaScript library to guide the user to focus the important part, including fix element
@@ -53,9 +57,8 @@
 - [[链接] Luo's Blog by Express ](http://118.31.9.121/)
 
 
-### 日常记录
-- [[记录] 2020.02.20 阿里云部署博客踩坑](https://github.com/law-chain-hot/Blog/blob/master/0-src/3-%E6%97%A5%E5%B8%B8%E8%AE%B0%E5%BD%95/2-%5B2020.02.21%5DWeek5.5%20%E9%98%BF%E9%87%8C%E4%BA%91%E9%83%A8%E7%BD%B2%E5%8D%9A%E5%AE%A2%E8%B8%A9%E5%9D%91.md)
-- [[记录] 2020.02.18 NPM包：mk-guide](https://github.com/law-chain-hot/Blog/blob/master/0-src/3-%E6%97%A5%E5%B8%B8%E8%AE%B0%E5%BD%95/1-%5B2020.02.18%5DWeek5.2%20NPM%E5%8C%85.md)
+
+
 
 
  
