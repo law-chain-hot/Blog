@@ -19,6 +19,7 @@
 6. [[js] JavaScript的垃圾回收机制-总结](https://github.com/law-chain-hot/Blog/issues/10)
 7. [[network] XSS和CSRF 攻击，分类，防范](https://github.com/law-chain-hot/Blog/blob/master/0-src/1-%E6%A2%B3%E7%90%86%E7%9F%A5%E8%AF%86%E7%82%B9/4-Network-XSS%E6%94%BB%E5%87%BB%EF%BC%8C%E5%88%86%E7%B1%BB%EF%BC%8C%E9%98%B2%E8%8C%83.md)
 8. [[network] Http与Https区别+自我总结](https://github.com/law-chain-hot/Blog/issues/9)
+9. [[react] 如何手动实现React中的 render 和 hooks ](https://github.com/law-chain-hot/Blog/blob/master/0-src/1-%E6%A2%B3%E7%90%86%E7%9F%A5%E8%AF%86%E7%82%B9/5-React-%E5%A6%82%E4%BD%95%E6%89%8B%E5%8A%A8%E5%AE%9E%E7%8E%B0React%E4%B8%AD%E7%9A%84render%E5%92%8Chooks.md)
 
 
 ### 算法
