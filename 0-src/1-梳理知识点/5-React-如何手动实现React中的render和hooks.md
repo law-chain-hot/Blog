@@ -5,7 +5,7 @@
 
 主要通过 TSX (Typescript + JSX) 实现了React的render()和useState()，重点概念如下
 
----
+
 ## 对于Render()  
 - Virtual DOM 是一个Object，通过recursively使用render，用js原生构建成真正的DOM tree
 - createElement接受的参数为 `createElement: (tag, props, ...children) => { } `
