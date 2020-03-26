@@ -2,7 +2,7 @@
 > 不是技术笔记即使都是在讲技术，但是我会摘抄和自己翻译（胡编）一些经典句子下来， 因为我更想把自己带入这些技术大牛的思维里去，去理解和学习它，让我们开始吧  
 
 > 原文的GitHub地址：github.com/getify/Functional-Light-JS
-## 1. 我的思考部分
+<h2 style="text-align:center">1. 我的思考部分 </h2>
 ### 2020.03.25 - 第一章暂时未读完时的看法 
 整个代码的运行过程建立在我们相信某些底层逻辑之上，比如我用 `高级语言` 写好了 for 循环，那么我相信我的代码会被 `可靠的编译器` 翻译成 `可靠的汇编语言` ，接着再被`可靠的汇编器编译器` 翻译为 `01机器码`，最终被转换为`电信号`，同时我们相信这个过程中`硅基材料`的物理性质能够被正常发挥
 
@@ -20,7 +20,7 @@
 那么在我看来，函数式编程也是一次进化，因为我们信任的东西从一条一条的`命令`变成了一个一个`函数`，也就是所谓的 `指令式编程` -> `声明式编程`
 
 
-## 2. 我的笔记部分
+<h2 style="text-align:center"> 2. 我的笔记部分 </h2>
 1.  Code that you cannot trust is code that you do not understand. The reverse is true also: code that you don't understand is code you can't trust  
 ```js
 你不能明白的代码，不可信！
