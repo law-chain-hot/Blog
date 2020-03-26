@@ -16,13 +16,13 @@
 
 ### 1. **Virtual DOM 的快具体指什么，为什么**  
 
-    -   React操作dom： js -> vdom -> dom
-    -   JS操作dom： js -> dom
-    -   那么可以看到第一次生成dom，因为React要生成Virtual DOM，所以速度比原生更慢。
-    -   但是之后的每次更新，会通过Virtual DOM之后，再用**最小的代价**来更新 DOM，提高效率
-    -   **结论**
-        -   第一次渲染比raw更慢，之后的更新DOM时比raw更快
-        -   这是测试的React，raw，angular 渲染速度的demo地址，非常形象，https://huangxuan.me/React-benchmark/src/
+    -  React操作dom： js -> vdom -> dom
+    -  JS操作dom： js -> dom
+    -  那么可以看到第一次生成dom，因为React要生成Virtual DOM，所以速度比原生更慢。
+    -  但是之后的每次更新，会通过Virtual DOM之后，再用**最小的代价**来更新 DOM，提高效率
+    -  **结论**
+       -  第一次渲染比raw更慢，之后的更新DOM时比raw更快
+       -  这是测试的React，raw，angular 渲染速度的demo地址，非常形象，https://huangxuan.me/React-benchmark/src/
 
 ### 2. **具体实现**
    -  优化了diff算法，只要节点的标签或者组件类型不同，认定整个组件改变，放弃调原DOM节点，插入新节点 
