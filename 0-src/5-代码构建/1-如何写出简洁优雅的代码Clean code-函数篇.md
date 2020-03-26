@@ -5,7 +5,7 @@
 ## 1. Function arguments(2 or fewer ideally)
 函数的参数尽量是2个，或者更少 (那就是1个了或者0个了)
 
-**Bad**
+**Bad**  
 可以看到参数多达4个
 ```js
 // ###### Bad ######
@@ -14,7 +14,7 @@ function creatMenu(title, body, bottonText, cancelLabel){
 }
 ```
 
-**Good**
+**Good**  
 拆分到一个object里面去，再在通过内部变量进行赋值，当你要多次调用`creatMenu`这个函数时，你会感谢自己当时是下面这个写法
 ```js
 // ###### Good ######
