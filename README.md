@@ -28,6 +28,10 @@
 3. [[算法] 大数相加 (极简版)](https://github.com/law-chain-hot/Blog/blob/master/0-src/4-%E7%AE%97%E6%B3%95/3-%E5%A4%A7%E6%95%B0%E7%9B%B8%E5%8A%A0%EF%BC%88%E6%9E%81%E7%AE%80%E7%89%88%EF%BC%89.md)
 
 
+### 代码构建
+1. [如何写出简洁优雅的代码Clean code-函数篇](https://github.com/law-chain-hot/Blog/blob/master/0-src/5-%E4%BB%A3%E7%A0%81%E6%9E%84%E5%BB%BA/1-%E5%A6%82%E4%BD%95%E5%86%99%E5%87%BA%E7%AE%80%E6%B4%81%E4%BC%98%E9%9B%85%E7%9A%84%E4%BB%A3%E7%A0%81Clean%20code-%E5%87%BD%E6%95%B0%E7%AF%87.md)
+
+
 ### 博文记录
 - [[记录] 2020.03.05 FreeTitle网页的profile修改过程-踩坑记录（加入创业团队第二周）](https://github.com/law-chain-hot/Blog/issues/11)
 - [[记录] 2020.02.20 阿里云部署博客-踩坑记录](https://github.com/law-chain-hot/Blog/blob/master/0-src/3-%E6%97%A5%E5%B8%B8%E8%AE%B0%E5%BD%95/2-%5B2020.02.21%5DWeek5.5%20%E9%98%BF%E9%87%8C%E4%BA%91%E9%83%A8%E7%BD%B2%E5%8D%9A%E5%AE%A2%E8%B8%A9%E5%9D%91.md)
