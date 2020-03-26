@@ -28,7 +28,6 @@
 
 目前，爱好是写码。。。
 
-## 瞎写
-- [杂1](https://github.com/law-chain-hot/Blog/issues/12)
+
 ---
 [ ⬅ 返回我的Blog](https://github.com/law-chain-hot/Blog) 
