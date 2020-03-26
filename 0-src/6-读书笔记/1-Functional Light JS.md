@@ -36,3 +36,17 @@
 ```js
 天啊，真的是开眼了，程序员70%的时间都花在了阅读和理解别人代码（或者自己的），怪不得程序员平均每天写的代码量只有10行
 ```
+
+
+3. For example, once you learn what map(..) does, you'll be able to almost instantly spot and understand it when you see it in any program. But every time you see a for loop, you're going to have to read the whole loop to understand it. The syntax of the for loop may be familiar, but the substance of what it's doing is not; that has to be read, every time.
+```js
+举例说明了经典的例子，for() -> map()，这个用法的转变能带来什么
+
+//our focus is freed up to think about the higher levels of program logic; 
+```
+
+
+4. FP (at least, without all the terminology weighing it down) is one of the most effective tools for crafting readable code. That is why it's so important.
+```js
+不错，很高的评价了
+```

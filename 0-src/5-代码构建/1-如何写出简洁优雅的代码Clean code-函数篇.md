@@ -13,6 +13,7 @@
 7. Don't write to global function
 8. Favor functional programming over imperative programming
 9.  Encapsulate conditionals
+10. Avoid negative conditionals
 
 
 ## 1. Function arguments(2 or fewer ideally)
@@ -189,5 +190,13 @@ function shouldShowFlag (flag, listNode) {
 
 if (shouldShowFlag(flagInstance, listNodeInstance)) {
     //...
+}
+```
+
+
+## 10. Avoid negative conditionals
+```js
+function isNodeDOMNotPresent(node){
+    // ... 不要写这样的 function
 }
 ```
