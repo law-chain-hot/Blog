@@ -4,7 +4,7 @@
 > 原文的GitHub地址：github.com/getify/Functional-Light-JS
 
 
-1.  Code that you cannot trust is code that you do not understand. The reverse is true also: code that you don't understand is code you can't trust  
+`1.  Code that you cannot trust is code that you do not understand. The reverse is true also: code that you don't understand is code you can't trust `
 - **你不能明白的代码，不可信！**(原文好绕，一句话就是这个)
 - (其实就在说functional programming is pretty great! That is EASY to understand!)
 
