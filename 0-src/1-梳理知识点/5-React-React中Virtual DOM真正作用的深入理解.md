@@ -15,6 +15,7 @@
 看了知乎上的问题，题主发现用React操作DOM比原生JS更慢，于是提出疑问。我跟着他的疑问读完了知乎的答案，大概了解他们在说什么了，下面是整理
 
 ### 1. **Virtual DOM 的快具体指什么，为什么**  
+
     -   React操作dom： js -> vdom -> dom
     -   JS操作dom： js -> dom
     -   那么可以看到第一次生成dom，因为React要生成Virtual DOM，所以速度比原生更慢。
