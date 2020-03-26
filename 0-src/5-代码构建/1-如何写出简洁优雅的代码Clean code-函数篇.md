@@ -42,7 +42,6 @@ function creatMenu(menuConfig){
 function addToDate(data, month){
     // ...
 }
-
 const data = new Date()
 addTodate(data, 1) // nobody understand what it is 
 
@@ -52,7 +51,6 @@ addTodate(data, 1) // nobody understand what it is
 function addMonthToDate(month, data){  // 调换了month和data的顺序，因为name是 add month -> data
     // ...
 }
-
 const data = new Date()
 addMonthToDate(1, data) // which is much more clear
 
@@ -83,6 +81,7 @@ function creatFile(name){
     fs.create(name)
 }
 
-function creatFlagFile(name)
+function creatFlagFile(name){
     fs.create(`./flag/${name}`)
+}
 ```
