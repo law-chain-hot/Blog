@@ -38,7 +38,7 @@ function creatMenu(menuConfig){
 
 ## 3. Function name should say what they do
 ```js
-// Bad function name
+// ###### Bad ######
 function addToDate(data, month){
     // ...
 }
@@ -48,7 +48,7 @@ addTodate(data, 1) // nobody understand what it is
 
 
 
-// Good function name
+// ###### Good ######
 function addMonthToDate(month, data){  // 调换了month和data的顺序，因为name是 add month -> data
     // ...
 }
