@@ -5,7 +5,6 @@
 
 
 1.  Code that you cannot trust is code that you do not understand. The reverse is true also: code that you don't understand is code you can't trust  
-
 ```js
 你不能明白的代码，不可信！
 //(原文好绕，一句话就是这个)
@@ -14,6 +13,6 @@
 
 
 2. It's widely estimated that developers spend 70% of code maintenance time on reading to understand it. That is eye-opening. 70%. No wonder the global average for a programmer's lines of code written per day is about 10. We spend up to 7 hours of our day just reading the code to figure out where those 10 lines should go!  
-```md
-- **天啊，真的是开眼了，程序员70%的时间都花在了阅读和理解别人代码（或者自己的），怪不得程序员平均每天写的代码量只有10行**
+```js
+天啊，真的是开眼了，程序员70%的时间都花在了阅读和理解别人代码（或者自己的），怪不得程序员平均每天写的代码量只有10行
 ```
