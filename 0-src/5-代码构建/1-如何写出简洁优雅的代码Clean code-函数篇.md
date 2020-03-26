@@ -1,0 +1,88 @@
+# 如何写出简洁优雅的代码Clean code-函数篇
+
+> 最近在学习函数式编程，学习的同时意识到自己的之前有不好的代码习惯，于是本着早就错早改正的心态学习了如何写出(稍微更)优雅的代码，内容源自YouTube的freeCodeCamp频道，https://www.youtube.com/watch?v=RR_dQ4sBSBM
+
+## 1. Function arguments(2 or fewer ideally)
+函数的参数尽量是2个，或者更少 (那就是1个了或者0个了)
+
+### Bad
+可以看到参数多达4个
+```js
+// ###### Bad ######
+function creatMenu(title, body, bottonText, cancelLabel){
+    // ...
+}
+```
+
+### Good
+拆分到一个object里面去，再在通过内部变量进行赋值，当你要多次调用`creatMenu`这个函数时，你会感谢自己当时是下面这个写法
+```js
+// ###### Good ######
+const menuConfig = {
+    title: 'Foo',
+    body: 'Bar',
+    bottonText: 'Baz',
+    cancelLabel: true,
+}
+
+function creatMenu(menuConfig){
+    const {title, body, bottonText, cancelLabel} = menuConfig
+    // ...
+}
+```
+
+
+## 2. Function should do one thing
+一个function里面只做一件事
+
+
+## 3. Function name should say what they do
+```js
+// Bad function name
+function addToDate(data, month){
+    // ...
+}
+
+const data = new Date()
+addTodate(data, 1) // nobody understand what it is 
+
+
+
+// Good function name
+function addMonthToDate(month, data){  // 调换了month和data的顺序，因为name是 add month -> data
+    // ...
+}
+
+const data = new Date()
+addMonthToDate(1, data) // which is much more clear
+
+```
+
+## 4. Remove duplicate code
+不要写重复的代码
+
+## 5. Don't use flag as function parameters
+不要加入带判断的参数进入函数，如果带判断，就分成2个函数  
+同时修改函数名，让其含义更加明确
+```js
+// ###### Bad ######
+// 只有一个函数，通过flag判断执行语句
+function creatFile(name, flag){
+    if (flag){
+        fs.create(`./flag/${name}`)
+    } else {
+        fs.create(name)
+    }
+}
+
+
+
+// ###### Good ######
+// 两个函数，根据情况调用
+function creatFile(name){
+    fs.create(name)
+}
+
+function creatFlagFile(name)
+    fs.create(`./flag/${name}`)
+```
