@@ -24,7 +24,7 @@
 
 <h2 align="center">2. 我的笔记部分 </h2>
 
-1.  Code that you cannot trust is code that you do not understand. The reverse is true also: code that you don't understand is code you can't trust  
+### 1.  Code that you cannot trust is code that you do not understand. The reverse is true also: code that you don't understand is code you can't trust  
 ```js
 你不能明白的代码，不可信！
 //(原文好绕，一句话就是这个)
@@ -32,7 +32,7 @@
 ```
 
 
-2. It's widely estimated that developers spend 70% of code maintenance time on reading to understand it. That is eye-opening. 70%. No wonder the global average for a programmer's lines of code written per day is about 10. We spend up to 7 hours of our day just reading the code to figure out where those 10 lines should go!  
+### 2. It's widely estimated that developers spend 70% of code maintenance time on reading to understand it. That is eye-opening. 70%. No wonder the global average for a programmer's lines of code written per day is about 10. We spend up to 7 hours of our day just reading the code to figure out where those 10 lines should go!  
 ```js
 天啊，真的是开眼了，程序员70%的时间都花在了阅读和理解别人代码（或者自己的），怪不得程序员平均每天写的代码量只有10行
 ```
@@ -49,4 +49,50 @@
 4. FP (at least, without all the terminology weighing it down) is one of the most effective tools for crafting readable code. That is why it's so important.
 ```js
 不错，很高的评价了
+```
+
+
+## 5.  This count has a special term: arity. Arity is the number of parameters in a function declaration. The arity of foo(x, y, z) is 3.
+```js
+function foo(x,y,z) {
+    // ..
+}
+
+foo.length;             // 3
+```
+
+
+## 6. Be careful: never access arguments positionally, like arguments[1]. Stick to `arguments.length` only, and only if you must.
+```
+叫我们不要再使用 arguments，就算要使用，用用  「arguments.length」  就好了
+```
+
+
+## 7. Destructuring is a way to declare a pattern for the kind of structure (object, array, etc.) that you expect to see, and how decomposition (assignment) of its individual parts should be processed.
+```js
+//  ====== Declarative Code ======
+// 分别把 1, 2, 3赋值给了 x, y, args     by Destructuring
+function foo( [x,y,...args] = [] ) {
+    // ..
+}
+
+foo( [1,2,3] );
+```
+
+另外，如果我们使用 命令式编程 (Imperative programming)，结果如下
+```js
+// ====== Imerative Code ====== 
+function foo(params) {
+    var x = params[0];
+    var y = params[1];
+    var args = params.slice( 2 );
+
+    // ..
+}
+```
+
+Wherever possible, and to whatever degrees our language and our libraries/frameworks will let us, we should be striving for declarative, self-explanatory code.
+
+```
+嚯嚯，有力的宣言
 ```
