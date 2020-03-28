@@ -38,7 +38,7 @@
 ```
 
 
-3. For example, once you learn what map(..) does, you'll be able to almost instantly spot and understand it when you see it in any program. But every time you see a for loop, you're going to have to read the whole loop to understand it. The syntax of the for loop may be familiar, but the substance of what it's doing is not; that has to be read, every time.
+### 3. For example, once you learn what map(..) does, you'll be able to almost instantly spot and understand it when you see it in any program. But every time you see a for loop, you're going to have to read the whole loop to understand it. The syntax of the for loop may be familiar, but the substance of what it's doing is not; that has to be read, every time.
 ```js
 举例说明了经典的例子，for() -> map()，这个用法的转变能带来什么
 
@@ -46,13 +46,13 @@
 ```
 
 
-4. FP (at least, without all the terminology weighing it down) is one of the most effective tools for crafting readable code. That is why it's so important.
+### 4. FP (at least, without all the terminology weighing it down) is one of the most effective tools for crafting readable code. That is why it's so important.
 ```js
 不错，很高的评价了
 ```
 
 
-## 5.  This count has a special term: arity. Arity is the number of parameters in a function declaration. The arity of foo(x, y, z) is 3.
+### 5.  This count has a special term: arity. Arity is the number of parameters in a function declaration. The arity of foo(x, y, z) is 3.
 ```js
 function foo(x,y,z) {
     // ..
@@ -62,13 +62,13 @@ foo.length;             // 3
 ```
 
 
-## 6. Be careful: never access arguments positionally, like arguments[1]. Stick to `arguments.length` only, and only if you must.
+### 6. Be careful: never access arguments positionally, like arguments[1]. Stick to `arguments.length` only, and only if you must.
 ```
 叫我们不要再使用 arguments，就算要使用，用用  「arguments.length」  就好了
 ```
 
 
-## 7. Destructuring is a way to declare a pattern for the kind of structure (object, array, etc.) that you expect to see, and how decomposition (assignment) of its individual parts should be processed.
+### 7. Destructuring is a way to declare a pattern for the kind of structure (object, array, etc.) that you expect to see, and how decomposition (assignment) of its individual parts should be processed.
 ```js
 //  ====== Declarative Code ======
 // 分别把 1, 2, 3赋值给了 x, y, args     by Destructuring
