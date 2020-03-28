@@ -5,6 +5,7 @@
   - 将时间复杂度降低到：**O(n * log n) ---> O(n)**
   - 它是由Blum、Floyd、Pratt、Rivest、Tarjan提出。
   - 该算法的思想是修改快速选择算法的主元选取方法，提高算法在最坏情况下的时间复杂度。
+  - 简单来说就是：找到更好的 **pivot** 的位置
 
 1. Select the pivot(approximate median)
    1. Divide the numbers into n/5 groups, with 5 numbers in each group
@@ -15,6 +16,8 @@
 
 3. According to the rank of pivot and k, choose the left part or right part to continue finding the Kth largest element.
 
+
+# 2020.03.28之前
 ## 步骤
 - 对此时的arr，随机选择一个数，小于这个数的放左边，大于的右边 `如何选择这个数，可以优化`
 - 递归，直到此时的arr长度为1
