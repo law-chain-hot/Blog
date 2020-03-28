@@ -7,9 +7,9 @@
   - 该算法的思想是修改快速选择算法的主元选取方法，提高算法在最坏情况下的时间复杂度。
 
 1. Select the pivot(approximate median)
-   1.1 Divide the numbers into n/5 groups, with 5 numbers in each group
-   1.2 Find the median of each group
-   1.3 For the medians in step 1.2, call the BFPRT algorithm to find the median of medians, as the pivot
+   1. Divide the numbers into n/5 groups, with 5 numbers in each group
+   2. Find the median of each group
+   3. For the medians in step 1.2, call the BFPRT algorithm to find the median of medians, as the pivot
 
 2. Split the numbers with the pivot in step 2, put the elements larger than pivot on the left side, and those smaller on the right side
 
