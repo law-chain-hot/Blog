@@ -7,6 +7,7 @@
   - 该算法的思想是修改快速选择算法的主元选取方法，提高算法在最坏情况下的时间复杂度。
   - 简单来说就是：找到更好的 **pivot** 的位置
 
+- 实现步骤：
 1. Select the pivot(approximate median)
    1. Divide the numbers into n/5 groups, with 5 numbers in each group
    2. Find the median of each group
