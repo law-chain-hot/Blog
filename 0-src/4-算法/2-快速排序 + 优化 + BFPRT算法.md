@@ -8,14 +8,14 @@
   - 简单来说就是：找到更好的 **pivot** 的位置
 
 - 实现步骤：
-1. Select the pivot(approximate median)
-   1. Divide the numbers into n/5 groups, with 5 numbers in each group
-   2. Find the median of each group
-   3. For the medians in step 1.2, call the BFPRT algorithm to find the median of medians, as the pivot
+  1. Select the pivot(approximate median)
+     1. Divide the numbers into n/5 groups, with 5 numbers in each group
+     2. Find the median of each group
+     3. For the medians in step 1.2, call the BFPRT algorithm to find the median of medians, as the pivot
 
-2. Split the numbers with the pivot in step 2, put the elements larger than pivot on the left side, and those smaller on the right side
+  2. Split the numbers with the pivot in step 2, put the elements larger than pivot on the left side, and those smaller on the right side
 
-3. According to the rank of pivot and k, choose the left part or right part to continue finding the Kth largest element.
+  3. According to the rank of pivot and k, choose the left part or right part to continue finding the Kth largest element.
 
 
 # 2020.03.28之前
