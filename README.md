@@ -29,7 +29,7 @@
 1. [[算法] 字符串全排列](https://github.com/law-chain-hot/Blog/issues/5)
 2. [[算法] 快速排序 + 优化 + BFPRT算法](https://github.com/law-chain-hot/Blog/blob/master/0-src/4-%E7%AE%97%E6%B3%95/2-%E5%BF%AB%E9%80%9F%E6%8E%92%E5%BA%8F%20%2B%20%E4%BC%98%E5%8C%96%20%2B%20BFPRT%E7%AE%97%E6%B3%95.md)
 3. [[算法] 大数相加 (极简版)](https://github.com/law-chain-hot/Blog/blob/master/0-src/4-%E7%AE%97%E6%B3%95/3-%E5%A4%A7%E6%95%B0%E7%9B%B8%E5%8A%A0%EF%BC%88%E6%9E%81%E7%AE%80%E7%89%88%EF%BC%89.md)
-
+4. [[算法] 最大小公倍数 & 最大公约数](https://github.com/law-chain-hot/Blog/blob/master/0-src/4-%E7%AE%97%E6%B3%95/4-%E6%9C%80%E5%A4%A7%E5%B0%8F%E5%85%AC%E5%80%8D%E6%95%B0%20%26%20%E6%9C%80%E5%A4%A7%E5%85%AC%E7%BA%A6%E6%95%B0.md)
 
 ### 代码构建
 1. [如何写出简洁优雅的代码Clean code-函数篇](https://github.com/law-chain-hot/Blog/blob/master/0-src/5-%E4%BB%A3%E7%A0%81%E6%9E%84%E5%BB%BA/1-%E5%A6%82%E4%BD%95%E5%86%99%E5%87%BA%E7%AE%80%E6%B4%81%E4%BC%98%E9%9B%85%E7%9A%84%E4%BB%A3%E7%A0%81Clean%20code-%E5%87%BD%E6%95%B0%E7%AF%87.md)
