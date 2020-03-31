@@ -96,3 +96,5 @@ Wherever possible, and to whatever degrees our language and our libraries/framew
 ```
 嚯嚯，有力的宣言
 ```
+
+### 8. Functions that treat other functions as values are higher-order functions by definition
