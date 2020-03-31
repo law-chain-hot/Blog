@@ -1,4 +1,4 @@
-# 关于node的事件循环v10之前与v11之后
+# 关于 Node 的事件循环 版本v10 之前与 版本v11 之后
 
 理解浏览器的事件循环不难，但是 Node 的事件循环涉及到版本问题，会稍微复杂一点
 
@@ -17,7 +17,7 @@
 
 
 
-分别在 Node v11 和 Node v12 版本测试如下代码：
+## 分别在 Node v8 v11 v12 版本测试如下代码：
 ```js
 setTimeout(() => {
     let p = new Promise((resolve) => {
@@ -47,3 +47,5 @@ setTimeout(() => {
 ```
 
 结果如下图
+
+![image](https://user-images.githubusercontent.com/57960778/78074101-b133a900-7367-11ea-879f-87176c6ecbaa.png)
