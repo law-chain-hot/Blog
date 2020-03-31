@@ -19,7 +19,7 @@
 而他们的进化，是从`硅`反推回`高级语言`，进化为人（程序员）能够理解的广义上的编程语言
 
 那么在我看来，函数式编程也是一次进化，我js代码不再写for循环，取而代之的是forEach，map等，因为我们信任的东西从一条一条的`命令`变成了一个一个`函数`，也就是所谓的 `指令式编程` -> `声明式编程`
-
+<br>
 
 
 <h2 align="center">2. 我的笔记部分 </h2>
@@ -30,12 +30,14 @@
 //(原文好绕，一句话就是这个)
 //(其实就在说: Functional programming is f**king pretty great. That is EASY to understand. Use it bro!)
 ```
+<br>
 
 
 >2. It's widely estimated that developers spend 70% of code maintenance time on reading to understand it. That is eye-opening. 70%. No wonder the global average for a programmer's lines of code written per day is about 10. We spend up to 7 hours of our day just reading the code to figure out where those 10 lines should go!  
 ```js
 天啊，真的是开眼了，程序员70%的时间都花在了阅读和理解别人代码（或者自己的），怪不得程序员平均每天写的代码量只有10行
 ```
+<br>
 
 
 >3. For example, once you learn what map(..) does, you'll be able to almost instantly spot and understand it when you see it in any program. But every time you see a for loop, you're going to have to read the whole loop to understand it. The syntax of the for loop may be familiar, but the substance of what it's doing is not; that has to be read, every time.
@@ -44,12 +46,14 @@
 
 //our focus is freed up to think about the higher levels of program logic; 
 ```
+<br>
 
 
 >4. FP (at least, without all the terminology weighing it down) is one of the most effective tools for crafting readable code. That is why it's so important.
 ```js
 不错，很高的评价了
 ```
+<br>
 
 
 >5.  This count has a special term: arity. Arity is the number of parameters in a function declaration. The arity of foo(x, y, z) is 3.
@@ -60,12 +64,14 @@ function foo(x,y,z) {
 
 foo.length;             // 3
 ```
+<br>
 
 
 >6. Be careful: never access arguments positionally, like arguments[1]. Stick to `arguments.length` only, and only if you must.
 ```
 叫我们不要再使用 arguments，就算要使用，用用  「arguments.length」  就好了
 ```
+<br>
 
 
 >7. Destructuring is a way to declare a pattern for the kind of structure (object, array, etc.) that you expect to see, and how decomposition (assignment) of its individual parts should be processed.
@@ -96,15 +102,17 @@ Wherever possible, and to whatever degrees our language and our libraries/framew
 ```
 嚯嚯，有力的宣言
 ```
+<br>
 
 >8. Functions that treat other functions as values are higher-order functions by definition
-
+<br>
 
 
 >9. It may just be the most important foundational practice in all of FP
 ```
 其中 it 指闭包 closure
 ```
+<br>
 
 
 >10.  If you've ever had to debug a JS program from nothing but a stack trace of an exception, you probably have felt the pain of seeing (anonymous function) appear line after line. This listing doesn't give a developer any clue whatsoever as to the path the exception came from. It's not doing the developer any favors.**
@@ -113,7 +121,7 @@ Wherever possible, and to whatever degrees our language and our libraries/framew
 
 Named functions are always more preferable to anonymous functions
 ```
-
+<br>
 
 >11.   Note: Though I do not prefer to use => in practice in my production code, they are useful in quick code explorations. Moreover, we will use arrow functions in many places throughout the rest of this book -- especially when we present typical FP utilities -- where conciseness is preferred to optimize for the limited physical space in code snippets. Make your own determinations whether this approach will make your own production-ready code more or less readable.
 ```
@@ -122,3 +130,4 @@ Named functions are always more preferable to anonymous functions
 简介  or  可读性
 conciseness   or    readability
 ```
+<br>
