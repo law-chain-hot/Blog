@@ -1,4 +1,4 @@
-# React 中的 diff 算法
+# React 中的 diff 算法，以及优化相关内容
 
 
 >此文档内容参考了 三元神 的掘金小册 《React Hooks 与 Immutable 数据流实战》  
