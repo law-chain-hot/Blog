@@ -192,3 +192,41 @@ function partialRight( fn, ...presetArgs ) {
 // 关键句 'expects only the next argument data'
 ```
 <br>
+
+
+
+
+>14. 直接上代码
+```js
+// ========================
+// 柯里化 或者说 loose柯里化。因为 strict curry 只能每次传入一个参数
+function looseCurry(fn,arity = fn.length) {
+    return (function nextCurried(prevArgs){
+        return function curried(...nextArgs){
+            var args = [ ...prevArgs, ...nextArgs ];
+
+            if (args.length >= arity) {
+                return fn( ...args );
+            }
+            else {
+                return nextCurried( args );
+            }
+        };
+    })( [] );
+}
+
+// 反柯里化
+function uncurry(fn) {
+    return function uncurried(...args){
+        var ret = fn;
+
+        for (let arg of args) {
+            ret = ret( arg );
+        }
+
+        return ret;
+    };
+}
+```
+<br>
+
