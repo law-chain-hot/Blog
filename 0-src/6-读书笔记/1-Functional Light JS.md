@@ -131,3 +131,33 @@ Named functions are always more preferable to anonymous functions
 conciseness   or    readability
 ```
 <br>
+
+
+
+
+### Chapter 3: Managing Function Inputs
+>12. The reason we can't pass add(..) directly to map(..) is because the signature of add(..) doesn't match the mapping function that map(..) expects. That's where partial application can help us: we can adapt the signature of add(..) to something that will match:
+```js
+===Bad===
+[1,2,3,4,5].map( function adder(val){
+    return add( 3, val );
+} );
+// [4,5,6,7,8]
+
+
+===Good===
+[1,2,3,4,5].map( partial( add, 3 ) );
+// [4,5,6,7,8]
+```
+<br>
+
+
+>13. Reversing Arguments
+```js
+function partialRight( fn, ...presetArgs ) {
+    return reverseArgs(
+        partial( reverseArgs( fn ), ...presetArgs.reverse() )
+    );
+}
+```
+<br>
