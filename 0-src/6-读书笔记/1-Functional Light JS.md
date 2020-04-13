@@ -19,11 +19,34 @@
 而他们的进化，是从`硅`反推回`高级语言`，进化为人（程序员）能够理解的广义上的编程语言
 
 那么在我看来，函数式编程也是一次进化，我js代码不再写for循环，取而代之的是forEach，map等，因为我们信任的东西从一条一条的`命令`变成了一个一个`函数`，也就是所谓的 `指令式编程` -> `声明式编程`
+
+
+
+>2020.04.13 - Why Currying and Partial Application?
+### There are several reasons. 
+
+- First reason is that, currying and partial allow you separate the arguments instead of presenting them all at the same time.
+- Seconde one is that, composition of functions is much easier when there's only one argument
+- Last and most important one is, specialization of generalized functions, and how such abstraction improves readability of code.
+
+
+
+
+
+
+
+
+
+
+
+
+
 <br>
-
-
+<br>
 <h1 align="center">2. 我的笔记部分 </h1>
 
+## Chapter 1: Why Functional Programming?
+## And Chapter 2: The Nature Of Functions
 >1.  Code that you cannot trust is code that you do not understand. The reverse is true also: code that you don't understand is code you can't trust  
 ```js
 你不能明白的代码，不可信！
@@ -159,5 +182,12 @@ function partialRight( fn, ...presetArgs ) {
         partial( reverseArgs( fn ), ...presetArgs.reverse() )
     );
 }
+```
+<br>
+
+
+>14. The main difference is that curriedAjax(..) will return a function (we call it personFetcher(..)) that expects only the next argument data, not one that (like the earlier getPerson(..)) can receive all the rest of the arguments.
+```js
+// 关键句 'expects only the next argument data'
 ```
 <br>
