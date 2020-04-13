@@ -22,6 +22,7 @@
 
 
 <br>
+
 >2020.04.13 - Why Currying and Partial Application?
 ### There are several reasons. 
 
