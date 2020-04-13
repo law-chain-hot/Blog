@@ -21,7 +21,7 @@
 那么在我看来，函数式编程也是一次进化，我js代码不再写for循环，取而代之的是forEach，map等，因为我们信任的东西从一条一条的`命令`变成了一个一个`函数`，也就是所谓的 `指令式编程` -> `声明式编程`
 
 
-
+<br>
 >2020.04.13 - Why Currying and Partial Application?
 ### There are several reasons. 
 
