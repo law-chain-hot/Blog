@@ -24,8 +24,8 @@
 <br>
 
 >2020.04.13 - Why Currying and Partial Application?
-### There are several reasons. 
 
+There are several reasons. 
 - First reason is that, currying and partial allow you separate the arguments instead of presenting them all at the same time.
 - Seconde one is that, composition of functions is much easier when there's only one argument
 - Last and most important one is, specialization of generalized functions, and how such abstraction improves readability of code.
@@ -196,7 +196,7 @@ function partialRight( fn, ...presetArgs ) {
 
 
 
->14. 直接上代码
+>15. 直接上代码
 ```js
 // ========================
 // 柯里化 或者说 loose柯里化。因为 strict curry 只能每次传入一个参数
@@ -230,3 +230,37 @@ function uncurry(fn) {
 ```
 <br>
 
+
+
+>16. 不要写 unnecessary parameter-agrument mapping
+```js
+// ====== Bad ======
+function double(x) {
+    return x * 2;
+}
+[1,2,3,4,].map( function mapper(v){
+    return double( v );
+} );
+// [2,4,6,8,10]
+
+
+
+
+// ====== Good1 ======
+function double(x) {
+    return x * 2;
+}
+[1,2,3,4,5].map( double );
+// [2,4,6,8,10]
+
+
+// ====== Good2 ======
+["1","2","3"].map( function mapper(v){
+    return parseInt( v );
+} );
+// [1,2,3]
+
+// ====== Perfect ======
+["1","2","3"].map( unary( parseInt ) );
+// [1,2,3]
+```
