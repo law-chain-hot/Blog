@@ -37,7 +37,7 @@
 4. [[算法] 最大小公倍数 & 最大公约数](https://github.com/law-chain-hot/Blog/blob/master/0-src/4-%E7%AE%97%E6%B3%95/4-%E6%9C%80%E5%A4%A7%E5%B0%8F%E5%85%AC%E5%80%8D%E6%95%B0%20%26%20%E6%9C%80%E5%A4%A7%E5%85%AC%E7%BA%A6%E6%95%B0.md)
 
 ### 代码构建
-1. [如何写出简洁优雅的代码Clean code-函数篇](https://github.com/law-chain-hot/Blog/blob/master/0-src/5-%E4%BB%A3%E7%A0%81%E6%9E%84%E5%BB%BA/1-%E5%A6%82%E4%BD%95%E5%86%99%E5%87%BA%E7%AE%80%E6%B4%81%E4%BC%98%E9%9B%85%E7%9A%84%E4%BB%A3%E7%A0%81Clean%20code-%E5%87%BD%E6%95%B0%E7%AF%87.md)
+1. [如何写出简洁优雅的代码 Clean code - 函数篇](https://github.com/law-chain-hot/Blog/blob/master/0-src/5-%E4%BB%A3%E7%A0%81%E6%9E%84%E5%BB%BA/1-%E5%A6%82%E4%BD%95%E5%86%99%E5%87%BA%E7%AE%80%E6%B4%81%E4%BC%98%E9%9B%85%E7%9A%84%E4%BB%A3%E7%A0%81Clean%20code-%E5%87%BD%E6%95%B0%E7%AF%87.md)
 2. [函数式编程初探 Functional Programming](https://github.com/law-chain-hot/Blog/blob/master/0-src/5-%E4%BB%A3%E7%A0%81%E6%9E%84%E5%BB%BA/2-%E5%87%BD%E6%95%B0%E5%BC%8F%E7%BC%96%E7%A8%8B%E5%88%9D%E6%8E%A2%20Functional%20Programming.md)
 
 ### 读书笔记
