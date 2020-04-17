@@ -38,10 +38,9 @@ class JSArray : public JSObject{
 开门见山，array 的数组大致上可分为 2 类，快数组和慢数组。快数组是一段固定长度的连续的内存，与传统 array 类似（FixedArray），而慢数组是哈希表（HashTable）
 
 - 快数组（Fast Elements）
-  - 快数组长度可变，分 2 种情况：
-    - 扩容 
-    - 收缩 `判断条件 old_capacity >= length * 2 + 16`
 - 慢数组（Dictionary Elements）
+
+快数组长度可变，分 2 种情况：扩容 和 收缩 `判断条件 old_capacity >= length * 2 + 16`
 
 优劣比较
 >快数组就是以空间换时间的方式，申请了大块连续内存，提高效率。 慢数组以时间换空间，不必申请连续的空间，节省了内存，但需要付出效率变差的代价。  
@@ -65,9 +64,9 @@ class JSArray : public JSObject{
 
 ## Array 元素类型
 按照元素类型分有 3 种：
-- SMI_ELEMENT：小整数，又称 Smi。
+- SMI_ELEMENT：小整数，又称 Smi
 - DOUBLE_ELEMENT：双精度浮点数或大整数，Double
-- ELEMENT：常规元素，不能表示为 Smi 或 Double 的值。
+- ELEMENT：常规元素，不能表示为 Smi 或 Double 的值
 
 按照模式类型分有 2 种：
 - holey arrays： 密集数组 dense
