@@ -42,6 +42,7 @@
 ### 代码构建
 1. [如何写出简洁优雅的代码 Clean code - 函数篇](https://github.com/law-chain-hot/Blog/blob/master/0-src/5-%E4%BB%A3%E7%A0%81%E6%9E%84%E5%BB%BA/1-%E5%A6%82%E4%BD%95%E5%86%99%E5%87%BA%E7%AE%80%E6%B4%81%E4%BC%98%E9%9B%85%E7%9A%84%E4%BB%A3%E7%A0%81Clean%20code-%E5%87%BD%E6%95%B0%E7%AF%87.md)
 2. [函数式编程初探 Functional Programming](https://github.com/law-chain-hot/Blog/blob/master/0-src/5-%E4%BB%A3%E7%A0%81%E6%9E%84%E5%BB%BA/2-%E5%87%BD%E6%95%B0%E5%BC%8F%E7%BC%96%E7%A8%8B%E5%88%9D%E6%8E%A2%20Functional%20Programming.md)
+3. [写更简洁的代码 by 函数式编程](https://github.com/law-chain-hot/Blog/issues/17)
 
 ### 读书笔记
 1. [[读书笔记] Functional-Light-JS (轻量函数式编程) --- Kyle Simpson](https://github.com/law-chain-hot/Blog/blob/master/0-src/6-%E8%AF%BB%E4%B9%A6%E7%AC%94%E8%AE%B0/1-Functional%20Light%20JS.md)
