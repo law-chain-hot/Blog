@@ -90,6 +90,6 @@
 
 曾想过读博进入科研界, 现目标为前端工程师
 
-目前寻找2020夏天实习  
+目前寻找前端全职，预计 2020 年 12 月毕业
 
 我的详细 **[Biography](https://github.com/law-chain-hot/Blog/tree/master/0-src/0-%E5%85%B3%E4%BA%8EAbout)**
