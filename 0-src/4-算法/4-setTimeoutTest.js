@@ -38,6 +38,11 @@ setTimeout(() => {
         resolve('promise1')
     }).then((data) => console.log(data))
 
+    new Promise((resolve) => {
+        console.log('p1.1');
+        resolve('promise1.1')
+    }).then((data) => console.log(data))
+
 
     process.nextTick(function () {
         console.log('nextTick1');
