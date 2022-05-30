@@ -63,30 +63,9 @@
 
 
 
-## 其他记录
-
-### 其他链接
-- [[链接] 个人主页 Luo's Portfolio](https://law-chain-hot.github.io/portfolio)  
-- [[链接] 个人主页(老版) Luo's Homepage](https://law-chain-hot.github.io/homepage)
-- [[链接] 领英主页 LinkedIn ](https://www.linkedin.com/in/qianhao-luo-472974177/)
-- [[链接] Luo's Blog by Express ](http://118.31.9.121/)
-
-
-### 无法分类的笔记
-1. [[无法分类] Recipe Project Note 原生JS实现MVP框架的网站](https://github.com/law-chain-hot/md-all-notes/issues/4)  
-2. [[无法分类] Basic JavaScript](https://github.com/law-chain-hot/md-all-notes/issues/5)    
-3. [[无法分类] Basic Node.js](https://github.com/law-chain-hot/md-all-notes/issues/6)  
-4. [[无法分类] BootStrap4](https://github.com/law-chain-hot/md-all-notes/issues/7)  
-
-
-
-
-
- 
-
 
 ## 关于我
-工科, 研二, 前端, 喜爱尝试新鲜事物
+~~工科, 研二, 前端, 喜爱尝试新鲜事物~~
 
 曾想过读博进入科研界, 现目标为前端工程师
 
